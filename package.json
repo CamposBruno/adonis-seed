@@ -16,7 +16,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@adonisjs/ace": "^5.0.8",
+    "@adonisjs/ace": "^6.0.0",
     "@adonisjs/antl": "^2.0.7",
     "@adonisjs/auth": "^3.0.7",
     "@adonisjs/bodyparser": "^2.0.5",
@@ -29,7 +29,7 @@
     "@adonisjs/redis": "^2.0.7",
     "@adonisjs/validator": "^5.0.6",
     "@adonisjs/websocket": "^1.0.11",
-    "@sentry/node": "^5.7.0",
+    "@sentry/node": "^5.6.2",
     "adonis-acl": "^1.1.1",
     "adonis-kue": "^5.0.1",
     "moment": "^2.24.0",
