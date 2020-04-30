@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node ace test"
+    "test": "node ace test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "adonisjs",
@@ -33,7 +35,8 @@
     "adonis-acl": "^1.1.1",
     "adonis-kue": "^5.0.1",
     "moment": "^2.24.0",
-    "pg": "^7.12.1"
+    "pg": "^7.12.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "eslint": "^6.2.2",
@@ -45,5 +48,6 @@
   },
   "autoload": {
     "App": "./app"
-  }
+  },
+  "snyk": true
 }
