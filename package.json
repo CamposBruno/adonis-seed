@@ -18,7 +18,7 @@
   "dependencies": {
     "@adonisjs/ace": "^6.0.0",
     "@adonisjs/antl": "^2.0.7",
-    "@adonisjs/auth": "^3.0.7",
+    "@adonisjs/auth": "^4.0.0",
     "@adonisjs/bodyparser": "^2.0.5",
     "@adonisjs/cors": "^1.0.7",
     "@adonisjs/fold": "^4.0.9",
@@ -33,7 +33,7 @@
     "adonis-acl": "^1.1.1",
     "adonis-kue": "^5.0.1",
     "moment": "^2.24.0",
-    "pg": "^7.12.1"
+    "pg": "^8.4.0"
   },
   "devDependencies": {
     "eslint": "^6.2.2",
